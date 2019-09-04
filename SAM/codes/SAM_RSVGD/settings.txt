@@ -1,0 +1,40 @@
+pfx = diff_
+SAM_Base:
+tr_data = ../../data/20News-diff/diff.train.tfidf1.data
+sig = 1e4
+kp0 = 1e4
+kp1 = 3e4
+aph = 10.
+Nmax = 20
+K = 20
+thBnin = 15
+thN = 10
+thL = 10
+thEps = 1e-6
+evalType = iter % time
+
+SAM_RSVGD:
+max_iter = 400
+btOptType = rsgd % rmsprop % fixed % rsgdm
+ibandw = -1.
+btEps = 1. % 1e-4
+btKappa = 0.7
+btTau0 = 1
+btAlpha = 0.9
+btLambda = 1e-5
+
+Topwords:
+tw_dict = ../../data/20News-diff/diff.voc
+tw_topn = 20
+tw_bnin = 20
+tw_N = -1
+
+SAM_Eval:
+ts_data = ../../data/20News-diff/diff.test.tfidf1.data
+ts_type = lbaylog % llog lbaylog flog fbaylog
+ts_thN = 200
+ts_tmBeg = 500.
+ts_tmIntv = 1000.
+ts_iterBeg = 1
+ts_iterIntv = 1
+

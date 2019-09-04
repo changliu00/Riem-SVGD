@@ -1,0 +1,35 @@
+pfx = diff_
+SAM_Base:
+tr_data = ../../data/20News-diff/diff.train.tfidf1.data
+sig = 1e4
+kp0 = 1e4
+kp1 = 3e4
+aph = 10.
+Nmax = 50000
+K = 20
+thBnin = 40
+thN = 20
+thL = 10
+thEps = 1e-6
+
+SAM_SGGMC:
+S = 1666
+btL = 1
+btGm = 1e-2
+btAl = 1e-2
+
+Topwords:
+tw_dict = ../../data/20News-diff/diff.voc
+tw_topn = 20
+tw_bnin = 20
+tw_N = -1
+
+SAM_Eval:
+ts_data = ../../data/20News-diff/diff.test.tfidf1.data
+ts_type = lbaylog % llog lbaylog flog fbaylog
+ts_thN = 200
+ts_tmBeg = 500.
+ts_tmIntv = 1000.
+ts_bnin = 30
+ts_N = 8000
+

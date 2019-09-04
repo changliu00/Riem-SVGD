@@ -1,0 +1,19 @@
+% General
+tsData: ../../data/20News-diff/diff.test.tfidf1.data
+
+% SAMS_Base
+N: 0 % should not change in command
+bnin: 0 % should not change in command
+
+% SAMS_Eval
+perpType: llog % flog
+tsthN: 200
+tsN:	0 % should not change in command
+tsbnin: 0 % should not change in command
+
+% for top words
+topn: 100
+dictName: ../../data/20News-diff/diff.voc
+dN: % set by command
+dbnin: % set by command
+
