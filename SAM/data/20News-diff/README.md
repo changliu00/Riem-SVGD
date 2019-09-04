@@ -1,6 +1,6 @@
 # The 20News-different dataset with tf-idf feature
 
-* Created by [Chang Liu][changliu] (<chang-li14@mails.tsinghua.edu.cn> (deprecated); <liuchangsmail@gmail.com>)
+* Created by [Chang Liu][changliu] \< chang-li14@mails.tsinghua.edu.cn (deprecated); <liuchangsmail@gmail.com>\>
   based on the Matlab/Octave version of the [20Newsgroups dataset](http://www.qwone.com/~jason/20Newsgroups/).
 * It contains 3 catagories out of the total 20: _rec.sport.baseball_, _sci.space_, _alt.atheism_.
 * Dataset for the experiments of the work  
