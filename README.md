@@ -1,5 +1,5 @@
 # [Riemannian Stein Variational Gradient Descent for Bayesian Inference](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17275)
-[Chang Liu][changliu] \< chang-li14@mails.tsinghua.edu.cn (deprecated); <liuchangsmail@gmail.com>\>,
+[Chang Liu][changliu] \<<chang-li14@mails.tsinghua.edu.cn> (deprecated); <liuchangsmail@gmail.com>\>,
 and [Jun Zhu][junzhu]. AAAI 2018.
 
 \[[Paper](http://ml.cs.tsinghua.edu.cn/~changliu/rsvgd/Liu-Zhu.pdf)\]
