@@ -1,5 +1,5 @@
 # [Riemannian Stein Variational Gradient Descent for Bayesian Inference](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17275)
-[Chang Liu][changliu] (<chang-li14@mails.tsinghua.edu.cn> (deprecated); <liuchangsmail@gmail.com>),
+[Chang Liu][changliu] \<<chang-li14@mails.tsinghua.edu.cn> (deprecated); <liuchangsmail@gmail.com>\>,
 and [Jun Zhu][junzhu]. AAAI 2018.
 
 \[[Paper](http://ml.cs.tsinghua.edu.cn/~changliu/rsvgd/Liu-Zhu.pdf)\]
@@ -36,17 +36,17 @@ Corresponds to the folder "bayesian_logistic_regression/".
 
 * Codes:
 
-Implemented in Python with NumPy based on the codes by [Liu & Wang (2016)][svgd-codes].
+  Implemented in Python with NumPy based on the codes by [Liu & Wang (2016)][svgd-codes].
 
 * Data:
 
-We did not contribute to the data sets here. The data sets used in the experiment are:
+  We did not contribute to the data sets here. The data sets used in the experiment are:
 
-	- "covertype.mat":
-	  Covertype dataset from the [LIBSVM Data Repository](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html).
-	  It is also used in SVGD by [Liu & Wang (2016)][svgd-paper].
-	- "benchmarks.mat":
-	  benchmark datasets compiled by [Mika et al. (1999)](http://theoval.cmp.uea.ac.uk/matlab/benchmarks/benchmarks.mat).
+  - "covertype.mat":
+    Covertype dataset from the [LIBSVM Data Repository](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html).
+    It is also used in SVGD by [Liu & Wang (2016)][svgd-paper].
+  - "benchmarks.mat":
+    benchmark datasets compiled by [Mika et al. (1999)](http://theoval.cmp.uea.ac.uk/matlab/benchmarks/benchmarks.mat).
 
 ### Spherical Admixture Model (SAM)
 
@@ -54,23 +54,23 @@ Corresponds to the folder "SAM/".
 
 * Codes:
 
-	- RSVGD, GMC and SGGMC are implemented in C++ based on the codes by [Liu et al. (2016)][sggmc-codes].
-	  The codes employ [Eigen](http://eigen.tuxfamily.org/) for linear algebra
-	  and [OpenMP](http://openmp.org/) for paralellization.
-	- Variational inference methods are implemented in MATLAB also based on the codes by [Liu et al. (2016)][sggmc-codes].
-	- To compile the C++ codes, just type "make" in each subfolder.
-	  See the instructions by [Liu et al. (2016)][sggmc-codes] for more details.
+  - RSVGD, GMC and SGGMC are implemented in C++ based on the codes by [Liu et al. (2016)][sggmc-codes].
+    The codes employ [Eigen](http://eigen.tuxfamily.org/) for linear algebra
+    and [OpenMP](http://openmp.org/) for paralellization.
+  - Variational inference methods are implemented in MATLAB also based on the codes by [Liu et al. (2016)][sggmc-codes].
+  - To compile the C++ codes, just type "make" in each subfolder.
+    See the instructions by [Liu et al. (2016)][sggmc-codes] for more details.
 
 * Data:
 
-We did not contribute to the data set here. The data set used in the experiment is:
+  We did not contribute to the data set here. The data set used in the experiment is:
 
-	- "20News-diff":
-	  The dataset is processed and used by [Liu et al. (2016)][sggmc-codes].
-	  It is a subset of the [20Newsgroups dataset](http://www.qwone.com/~jason/20Newsgroups/)
-	  with normalized tf-idf feature.
-	  See the [dataset website](http://ml.cs.tsinghua.edu.cn/~changliu/sggmcmc-sam/)
-	  or its ["README.md" file](./SAM/data/20News-diff/README.md) for more details.
+  - "20News-diff":
+    The dataset is processed and used by [Liu et al. (2016)][sggmc-codes].
+    It is a subset of the [20Newsgroups dataset](http://www.qwone.com/~jason/20Newsgroups/)
+    with normalized tf-idf feature.
+    See the [dataset website](http://ml.cs.tsinghua.edu.cn/~changliu/sggmcmc-sam/)
+    or its ["README.md" file](./SAM/data/20News-diff/README.md) for more details.
 
 ## Citation
 ```
